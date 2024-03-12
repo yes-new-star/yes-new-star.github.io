@@ -12,11 +12,13 @@
 </body>
 <script>
     function searchButtton(){
+        let divTest = document.getElementById("test");
+        divTest.innerText = '';
         let value = document.getElementById("input").value;
         if (value == ''){
             alert('吊毛请输入内容!!!!!!');
         }else{
-            document.getElementById("test").innerText = '看集贸呢';
+            divTest.innerText = '看集贸呢';
         }
     }
 </script>
